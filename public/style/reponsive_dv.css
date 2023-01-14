@@ -1,0 +1,169 @@
+@media screen and (min-width: 1500px) and (min-width: 1920px) {
+  #container {
+    width: 90% !important;
+    margin-top: 100px !important;
+  }
+  #container video {
+    height: 605px !important;
+    padding-top: 30px !important;
+  }
+
+  #container iframe {
+    height: 560px !important;
+  }
+  .service {
+    max-height: 530px !important;
+  }
+
+  #introduce {
+    margin-top: 30px !important;
+  }
+  #introduce .img img {
+    height: 600px !important;
+  }
+  #introduce .content {
+    padding-top: 240px !important;
+  }
+  .footer-logo img {
+    max-width: 100px !important;
+  }
+  .saokim_service .item_wrap .item {
+    color: #666;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    height: 220px !important;
+    cursor: pointer;
+  }
+
+  #logo img {
+    width: 40% !important;
+  }
+  .footer-bottom p {
+    padding-left: 400px !important;
+  }
+  .img-introduce {
+    margin-top: -215px !important;
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  #service-2 .news {
+    margin-left: 40px !important;
+  }
+  .saokim_service .item_wrap .item {
+    color: #666;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    height: 120px !important;
+    cursor: pointer;
+  }
+  .item_wrap {
+    width: 50% !important;
+  }
+  #introduce {
+    margin-top: 30px !important;
+    margin-bottom: 320px !important;
+    height: 400px;
+  }
+
+  .content {
+    padding-top: 175px !important;
+  }
+  .footer-logo {
+    text-align: center;
+  }
+  #introduce .img img {
+    height: 600px !important;
+  }
+
+  .banner-ctdv {
+    height: 100%;
+  }
+  .modal-content {
+    width: 95% !important;
+  }
+  .modal-body img {
+    margin-bottom: 30px !important;
+  }
+  .modal-body iframe {
+    height: 250px !important;
+  }
+  .tab-link {
+    margin-top: 5px !important;
+    width: 250px !important;
+  }
+  #tab-5 .item {
+    width: 130px !important;
+    height: 100px !important;
+  }
+  .modal-body {
+    width: 100% !important;
+    margin: 0 auto !important;
+  }
+  #logo {
+    margin-left: 10px !important;
+  }
+  #videos video {
+    height: 230px !important;
+  }
+  .saokim_service h3 {
+    font-size: 13px !important;
+  }
+  .footer-section .footer-cta {
+    line-height: 12px !important;
+  }
+  .footer-bottom p {
+    margin-top: 10px;
+    padding-left: 0px !important;
+    margin-bottom: 0px !important;
+  }
+  .footer-bottom {
+    height: 100% !important;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .saokim_service .item_wrap .item {
+    color: #666;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+  }
+  .item_wrap {
+    width: 50% !important;
+  }
+  .banner-ctdv {
+    height: 100%;
+  }
+  .modal-content {
+    width: 95% !important;
+  }
+  .modal-body img {
+    margin-bottom: 30px !important;
+  }
+
+  .tab-link {
+    margin-top: 5px !important;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .item_wrap {
+    width: 50% !important;
+  }
+  .banner-ctdv {
+    height: 100%;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1500px) {
+  #videos video {
+    margin-top: -20px !important;
+  }
+  #videos video {
+    height: 450px;
+  }
+}

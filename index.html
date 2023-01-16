@@ -16,7 +16,20 @@
 </head>
 <body>
 
+    
     <div class="app">
+        <div class="loading"></div>
+
+        <div class="cursor">
+            <div class="click-animation">
+                <div class="shape circle big"></div>
+                <div class="shape circle small"></div>
+                <div class="shape triangle yellow"></div>
+                <div class="shape triangle green"></div>
+                <div class="shape disc"></div>
+            </div>
+        </div>
+
         <header>
             <div class="header active">
                 <div class="container">
@@ -29,23 +42,26 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="col-lg-7">
+                        <div class="col-lg-8">
                             <ul class="header__menu">
                                 <li>
                                     <a class="header__menu-item" href="#services">Dịch vụ</a>
                                 </li>
                                 <li>
-                                    <a class="header__menu-item" href="#printing">In ấn / Quảng cáo</a>
+                                    <a class="header__menu-item" href="#printing">Thiết kế</a>
                                 </li>
                                 <li>
-                                    <a class="header__menu-item" href="#about">Giới thiệu</a>
+                                    <a class="header__menu-item" href="#project">TVC - Marketing</a>
                                 </li>
                                 <li>
-                                    <a class="header__menu-item" href="#project">Dự án</a>
+                                    <a class="header__menu-item" href="#project">In ấn -Thi công</a>
+                                </li>
+                                <li>
+                                    <a class="header__menu-item" href="#services">Hình ảnh</a>
                                 </li>
                             </ul>
                         </div>
-                        <div class="col-lg-2 header__action">
+                        <div class="col-lg-1 header__action">
                             <span>
                                 <i class='header__action-icon active bx bx-menu-alt-right' ></i>
                                 <i class='header__action-icon bx bx-x'></i>
@@ -142,7 +158,7 @@
                                     <div class="services__item-img">
                                         <img src="https://w.ladicdn.com/s450x450/5eda6c604ca19469618d2934/d3-20220530040813.png" alt="">
                                     </div>
-                                    <h4 class="text-center">Truy cập mọi lúc, mọi nơi</h4>
+                                    <h4 class="text-center">Tư vấn thành lập doanh nghiệp</h4>
                                     <p class="text-center">Cập nhật tình hình kinh doanh quán từ thiết bị của bạn</p>
                                 </div>
                             </div>
@@ -151,7 +167,7 @@
                                     <div class="services__item-img">
                                         <img src="https://w.ladicdn.com/s450x450/5eda6c604ca19469618d2934/d2-20220530040813.png" alt="">
                                     </div>
-                                    <h4 class="text-center">Báo cáo chính xác</h4>
+                                    <h4 class="text-center">Thiết kế thương hiệu</h4>
                                     <p class="text-center">Báo cáo kinh doanh toàn diện chỉ trong thời gian ngắn</p>
                                 </div>
                             </div>
@@ -160,7 +176,7 @@
                                     <div class="services__item-img">
                                         <img src="https://w.ladicdn.com/s450x450/5eda6c604ca19469618d2934/d3-20220530040813.png" alt="">
                                     </div>
-                                    <h4 class="text-center">Hỗ trợ tận tình</h4>
+                                    <h4 class="text-center">Thiết kế quảng cáo</h4>
                                     <p class="text-center">Luôn sẵn sàng hỗ trợ bạn 7 ngày một tuần</p>
                                 </div>
                             </div>
@@ -170,7 +186,7 @@
                                     <div class="services__item-img">
                                         <img src="https://w.ladicdn.com/s450x450/5eda6c604ca19469618d2934/d3-20220530040813.png" alt="">
                                     </div>
-                                    <h4 class="text-center">Truy cập mọi lúc, mọi nơi</h4>
+                                    <h4 class="text-center">Thiết kế bảng hiệu, cửa hàng, showroom</h4>
                                     <p class="text-center">Cập nhật tình hình kinh doanh quán từ thiết bị của bạn</p>
                                 </div>
                             </div>
@@ -179,7 +195,7 @@
                                     <div class="services__item-img">
                                         <img src="https://w.ladicdn.com/s450x450/5eda6c604ca19469618d2934/d2-20220530040813.png" alt="">
                                     </div>
-                                    <h4 class="text-center">Báo cáo chính xác</h4>
+                                    <h4 class="text-center">Thi công quảng cáo</h4>
                                     <p class="text-center">Báo cáo kinh doanh toàn diện chỉ trong thời gian ngắn</p>
                                 </div>
                             </div>
@@ -188,7 +204,7 @@
                                     <div class="services__item-img">
                                         <img src="https://w.ladicdn.com/s450x450/5eda6c604ca19469618d2934/d3-20220530040813.png" alt="">
                                     </div>
-                                    <h4 class="text-center">Hỗ trợ tận tình</h4>
+                                    <h4 class="text-center">Tổ chức sự kiện khai trương</h4>
                                     <p class="text-center">Luôn sẵn sàng hỗ trợ bạn 7 ngày một tuần</p>
                                 </div>
                             </div>
@@ -198,7 +214,16 @@
                                     <div class="services__item-img">
                                         <img src="https://w.ladicdn.com/s450x450/5eda6c604ca19469618d2934/d3-20220530040813.png" alt="">
                                     </div>
-                                    <h4 class="text-center">Truy cập mọi lúc, mọi nơi</h4>
+                                    <h4 class="text-center">Chụp ảnh</h4>
+                                    <p class="text-center">Cập nhật tình hình kinh doanh quán từ thiết bị của bạn</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 services__item">
+                                <div class="services__item-service">
+                                    <div class="services__item-img">
+                                        <img src="https://w.ladicdn.com/s450x450/5eda6c604ca19469618d2934/d3-20220530040813.png" alt="">
+                                    </div>
+                                    <h4 class="text-center">Quay phim</h4>
                                     <p class="text-center">Cập nhật tình hình kinh doanh quán từ thiết bị của bạn</p>
                                 </div>
                             </div>
@@ -207,7 +232,7 @@
                                     <div class="services__item-img">
                                         <img src="https://w.ladicdn.com/s450x450/5eda6c604ca19469618d2934/d2-20220530040813.png" alt="">
                                     </div>
-                                    <h4 class="text-center">Báo cáo chính xác</h4>
+                                    <h4 class="text-center">Sản xuất TVC / Marketing</h4>
                                     <p class="text-center">Báo cáo kinh doanh toàn diện chỉ trong thời gian ngắn</p>
                                 </div>
                             </div>
@@ -216,7 +241,25 @@
                                     <div class="services__item-img">
                                         <img src="https://w.ladicdn.com/s450x450/5eda6c604ca19469618d2934/d3-20220530040813.png" alt="">
                                     </div>
-                                    <h4 class="text-center">Hỗ trợ tận tình</h4>
+                                    <h4 class="text-center">Thiết kế Website</h4>
+                                    <p class="text-center">Luôn sẵn sàng hỗ trợ bạn 7 ngày một tuần</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 services__item">
+                                <div class="services__item-service">
+                                    <div class="services__item-img">
+                                        <img src="https://w.ladicdn.com/s450x450/5eda6c604ca19469618d2934/d3-20220530040813.png" alt="">
+                                    </div>
+                                    <h4 class="text-center">Thiết kế App mobile</h4>
+                                    <p class="text-center">Luôn sẵn sàng hỗ trợ bạn 7 ngày một tuần</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 services__item">
+                                <div class="services__item-service">
+                                    <div class="services__item-img">
+                                        <img src="https://w.ladicdn.com/s450x450/5eda6c604ca19469618d2934/d3-20220530040813.png" alt="">
+                                    </div>
+                                    <h4 class="text-center">Digital Marketing</h4>
                                     <p class="text-center">Luôn sẵn sàng hỗ trợ bạn 7 ngày một tuần</p>
                                 </div>
                             </div>
@@ -362,6 +405,63 @@
                 </div>
             </div>
 
+            <div class="gallery section">
+                <div class="container">
+                    <div class="gallery__title">
+                        <h5>Thư viện</h5>
+                        <h2>Hình Ảnh</h2>
+                    </div>
+                    <div class="gallery__content">
+                        <div class="gallery__list">
+                            <div class="gallery__item">
+                                <img src="./assets/imgs/gallery/1.jpg" alt="">
+                                <div class="gallery__name"><img src="./assets/imgs/logo-d24.png" alt=""></div>
+                            </div>
+                            <div class="gallery__item v-stretch">
+                                <img src="./assets/imgs/gallery/2.jpg" alt="">
+                                <div class="gallery__name"><img src="./assets/imgs/logo-d24.png" alt=""></div>
+                            </div>
+                            <div class="gallery__item">
+                                <img src="./assets/imgs/gallery/3.jpg" alt="">
+                                <div class="gallery__name"><img src="./assets/imgs/logo-d24.png" alt=""></div>
+                            </div>
+                            <div class="gallery__item">
+                                <img src="./assets/imgs/gallery/4.jpg" alt="">
+                                <div class="gallery__name"><img src="./assets/imgs/logo-d24.png" alt=""></div>
+                            </div>
+                            <div class="gallery__item v-stretch">
+                                <img src="./assets/imgs/gallery/5.jpg" alt="">
+                                <div class="gallery__name"><img src="./assets/imgs/logo-d24.png" alt=""></div>
+                            </div>
+                            <div class="gallery__item">
+                                <img src="./assets/imgs/gallery/6.jpg" alt="">
+                                <div class="gallery__name"><img src="./assets/imgs/logo-d24.png" alt=""></div>
+                            </div>
+                            <div class="gallery__item">
+                                <img src="./assets/imgs/gallery/7.jpg" alt="">
+                                <div class="gallery__name"><img src="./assets/imgs/logo-d24.png" alt=""></div>
+                            </div>
+                            <div class="gallery__item h-stretch">
+                                <img src="./assets/imgs/gallery/8.jpg" alt="">
+                                <div class="gallery__name"><img src="./assets/imgs/logo-d24.png" alt=""></div>
+                            </div>
+                            <div class="gallery__item">
+                                <img src="./assets/imgs/gallery/9.jpg" alt="">
+                                <div class="gallery__name"><img src="./assets/imgs/logo-d24.png" alt=""></div>
+                            </div>
+                            <div class="gallery__item">
+                                <img src="./assets/imgs/gallery/10.jpg" alt="">
+                                <div class="gallery__name"><img src="./assets/imgs/logo-d24.png" alt=""></div>
+                            </div>
+                            <div class="gallery__item">
+                                <img src="./assets/imgs/gallery/11.jpg" alt="">
+                                <div class="gallery__name"><img src="./assets/imgs/logo-d24.png" alt=""></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <div class="contact">
                 <div class="container">
                     <div class="row contact__content">
@@ -373,6 +473,12 @@
                                 <p>Số ĐT: 0704.888.009</p>
                                 <p>Email: Design24.vn@gmail.com</p>
                                 <p>Mã số thuế: 1801722168</p>
+                            </div>
+                            <div class="social">
+                                <a href="#" class="social__item"><i class='bx bxl-facebook-circle'></i></a>
+                                <a href="#" class="social__item"><i class='bx bxl-youtube' ></i></a>
+                                <a href="#" class="social__item"><i class='bx bxl-tiktok'></i></a>
+                                <a href="#" class="social__item"><i class='bx bxl-whatsapp' ></i></a>
                             </div>
                         </div>
                         <div class="col-md-5">
@@ -412,7 +518,43 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
+    <script>
+        // Loading
+        setTimeout(() => {
+        $('.loading').fadeToggle();
+        }, 3800);
+
+
+        // Cursor
+        const cursorAnimation = document.querySelector(".cursor");
+        const cursors = document.querySelectorAll(".cursor");
+        document.addEventListener("click", (e) => {
+            let x = e.clientX;
+            let y = e.clientY;
+    
+            cursorAnimation.style.top = y + "px";
+            cursorAnimation.style.left = x + "px";
+    
+            cursors.forEach((cursor) => {
+                cursor.classList.add('active');
+    
+                function removeCursorActive(){
+                    cursor.classList.remove('active');
+                }
+    
+                setTimeout(removeCursorActive, 1000);
+            });
+    
+            let cursorClone = cursorAnimation.cloneNode(true);
+            document.querySelector("body").appendChild(cursorClone);
+    
+            setTimeout(() => {
+                cursorClone.remove();
+            }, 1000)
+        })
+    </script>
 
     <script>
         const ctx = document.getElementById('projectChart');

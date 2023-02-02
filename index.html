@@ -31,7 +31,7 @@
         </div>
 
         <header>
-            <div class="header active">
+            <div class="header">
                 <div class="container">
                     <div class="header__content row">
                         <div class="col-lg-3">
@@ -48,28 +48,29 @@
                                     <a class="header__menu-item" href="#services">Dịch vụ</a>
                                 </li>
                                 <li>
-                                    <a class="header__menu-item" href="#printing">Thiết kế</a>
+                                    <a class="header__menu-item" href="#customer">Khách hàng</a>
                                 </li>
                                 <li>
-                                    <a class="header__menu-item" href="#project">TVC - Marketing</a>
+                                    <a class="header__menu-item" href="#gallery">Hình ảnh</a>
                                 </li>
                                 <li>
-                                    <a class="header__menu-item" href="#project">In ấn -Thi công</a>
+                                    <a class="header__menu-item" href="#project">Tin tức</a>
                                 </li>
                                 <li>
-                                    <a class="header__menu-item" href="#services">Hình ảnh</a>
+                                    <a class="header__menu-item" href="#contact">Liên hệ</a>
                                 </li>
                             </ul>
                         </div>
                         <div class="col-lg-1 header__action">
                             <span>
-                                <i class='header__action-icon active bx bx-menu-alt-right' ></i>
-                                <i class='header__action-icon bx bx-x'></i>
+                                <i class='header__action-icon action-icon-show active bx bx-menu-alt-right' ></i>
+                                <i class='header__action-icon action-icon-hide bx bx-x'></i>
                             </span>
                             <ul class="header__submenu">
-                                <li><a href="" class="header__submenu-item"><i class='bx bxl-vimeo submenu__icon'></i> Ngôn ngữ</a></li>
-                                <li><a href="" class="header__submenu-item"><i class='bx bx-sun submenu__icon' ></i> Chế độ</a></li>
-                                <li><a href="" class="header__submenu-item"><i class='bx bx-question-mark submenu__icon' ></i> Trợ giúp</a></li>
+                                <li><a href="#" class="header__submenu-item"><i class='bx bxl-vimeo submenu__icon'></i> Ngôn ngữ</a></li>
+                                <li><a href="https://design24.edu.vn/#/" target="_blank" class="header__submenu-item"><i class='bx bx-paint submenu__icon'></i> Học viện</a></li>
+                                <li><a href="https://www.youtube.com/@design2424" target="_blank" class="header__submenu-item"><i class='bx bxl-youtube submenu__icon' ></i> Channel</a></li>
+                                <li><a href="#" class="header__submenu-item"><i class='bx bx-question-mark submenu__icon' ></i> Trợ giúp</a></li>
                             </ul>
                         </div>
                     </div>
@@ -135,7 +136,7 @@
         
         
         <main class="main">
-            <section class="services section">
+            <section class="services section" id="services">
                 
                 <div class="container">
 
@@ -144,22 +145,174 @@
                         <h3>Bạn cần gì?</h3>
                     </div>
                     <div class="services__action row">
-                        <div class="services__action-item col-6 active">
+                        <div class="services__action-item col-6 active services__name-service">
                             <div class="services__name">Dịch vụ</div>
                         </div>
-                        <div class="services__action-item col-6">
+                        <div class="services__action-item col-6 services__name-marketing">
                             <div class="services__name">In ấn quảng cáo</div>
                         </div>
                     </div>
-                    <div class="services__container">
+                    <div class="services__container services__service active">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6 services__item">
+                                <a href="./dichvu/thietkequangcao/profilecongty.html">
+                                    <div class="services__item-service">
+                                        <div class="services__item-img">
+                                            <img src="https://w.ladicdn.com/s450x450/5eda6c604ca19469618d2934/d3-20220530040813.png" alt="">
+                                        </div>
+                                        <h4 class="text-center">Tư vấn thành lập doanh nghiệp</h4>
+                                        <p class="text-center">Cập nhật tình hình kinh doanh quán từ thiết bị của bạn</p>
+                                        <div class="services__item-icon"><i class='bx bx-right-arrow-alt'></i></div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-4 col-md-6 services__item">
+                                <a href="./dichvu/thietkethuonghieu/thietkelogo.html">
+                                    <div class="services__item-service">
+                                        <div class="services__item-img">
+                                            <img src="https://w.ladicdn.com/s450x450/5eda6c604ca19469618d2934/d2-20220530040813.png" alt="">
+                                        </div>
+                                        <h4 class="text-center">Thiết kế thương hiệu</h4>
+                                        <p class="text-center">Báo cáo kinh doanh toàn diện chỉ trong thời gian ngắn</p>
+                                        <div class="services__item-icon"><i class='bx bx-right-arrow-alt'></i></div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-4 col-md-6 services__item">
+                                <a href="#">
+                                    <div class="services__item-service">
+                                        <div class="services__item-img">
+                                            <img src="https://w.ladicdn.com/s450x450/5eda6c604ca19469618d2934/d3-20220530040813.png" alt="">
+                                        </div>
+                                        <h4 class="text-center">Thiết kế quảng cáo</h4>
+                                        <p class="text-center">Luôn sẵn sàng hỗ trợ bạn 7 ngày một tuần</p>
+                                        <div class="services__item-icon"><i class='bx bx-right-arrow-alt'></i></div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 services__item">
+                                <a href="#">
+                                    <div class="services__item-service">
+                                        <div class="services__item-img">
+                                            <img src="https://w.ladicdn.com/s450x450/5eda6c604ca19469618d2934/d3-20220530040813.png" alt="">
+                                        </div>
+                                        <h4 class="text-center">Thiết kế bảng hiệu, cửa hàng, showroom</h4>
+                                        <p class="text-center">Cập nhật tình hình kinh doanh quán từ thiết bị của bạn</p>
+                                        <div class="services__item-icon"><i class='bx bx-right-arrow-alt'></i></div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-4 col-md-6 services__item">
+                                <a href="#">
+                                    <div class="services__item-service">
+                                        <div class="services__item-img">
+                                            <img src="https://w.ladicdn.com/s450x450/5eda6c604ca19469618d2934/d2-20220530040813.png" alt="">
+                                        </div>
+                                        <h4 class="text-center">Thi công quảng cáo</h4>
+                                        <p class="text-center">Báo cáo kinh doanh toàn diện chỉ trong thời gian ngắn</p>
+                                        <div class="services__item-icon"><i class='bx bx-right-arrow-alt'></i></div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-4 col-md-6 services__item">
+                                <a href="#">
+                                    <div class="services__item-service">
+                                        <div class="services__item-img">
+                                            <img src="https://w.ladicdn.com/s450x450/5eda6c604ca19469618d2934/d3-20220530040813.png" alt="">
+                                        </div>
+                                        <h4 class="text-center">Tổ chức sự kiện khai trương</h4>
+                                        <p class="text-center">Luôn sẵn sàng hỗ trợ bạn 7 ngày một tuần</p>
+                                        <div class="services__item-icon"><i class='bx bx-right-arrow-alt'></i></div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 services__item">
+                                <a href="#">
+                                    <div class="services__item-service">
+                                        <div class="services__item-img">
+                                            <img src="https://w.ladicdn.com/s450x450/5eda6c604ca19469618d2934/d3-20220530040813.png" alt="">
+                                        </div>
+                                        <h4 class="text-center">Chụp ảnh</h4>
+                                        <p class="text-center">Cập nhật tình hình kinh doanh quán từ thiết bị của bạn</p>
+                                        <div class="services__item-icon"><i class='bx bx-right-arrow-alt'></i></div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-4 col-md-6 services__item">
+                                <a href="#">
+                                    <div class="services__item-service">
+                                        <div class="services__item-img">
+                                            <img src="https://w.ladicdn.com/s450x450/5eda6c604ca19469618d2934/d3-20220530040813.png" alt="">
+                                        </div>
+                                        <h4 class="text-center">Quay phim</h4>
+                                        <p class="text-center">Cập nhật tình hình kinh doanh quán từ thiết bị của bạn</p>
+                                        <div class="services__item-icon"><i class='bx bx-right-arrow-alt'></i></div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-4 col-md-6 services__item">
+                                <a href="#">
+                                    <div class="services__item-service">
+                                        <div class="services__item-img">
+                                            <img src="https://w.ladicdn.com/s450x450/5eda6c604ca19469618d2934/d2-20220530040813.png" alt="">
+                                        </div>
+                                        <h4 class="text-center">Sản xuất TVC / Marketing</h4>
+                                        <p class="text-center">Báo cáo kinh doanh toàn diện chỉ trong thời gian ngắn</p>
+                                        <div class="services__item-icon"><i class='bx bx-right-arrow-alt'></i></div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-4 col-md-6 services__item">
+                                <a href="#">
+                                    <div class="services__item-service">
+                                        <div class="services__item-img">
+                                            <img src="https://w.ladicdn.com/s450x450/5eda6c604ca19469618d2934/d3-20220530040813.png" alt="">
+                                        </div>
+                                        <h4 class="text-center">Thiết kế Website</h4>
+                                        <p class="text-center">Luôn sẵn sàng hỗ trợ bạn 7 ngày một tuần</p>
+                                        <div class="services__item-icon"><i class='bx bx-right-arrow-alt'></i></div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-4 col-md-6 services__item">
+                                <a href="#">
+                                    <div class="services__item-service">
+                                        <div class="services__item-img">
+                                            <img src="https://w.ladicdn.com/s450x450/5eda6c604ca19469618d2934/d3-20220530040813.png" alt="">
+                                        </div>
+                                        <h4 class="text-center">Thiết kế App mobile</h4>
+                                        <p class="text-center">Luôn sẵn sàng hỗ trợ bạn 7 ngày một tuần</p>
+                                        <div class="services__item-icon"><i class='bx bx-right-arrow-alt'></i></div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-4 col-md-6 services__item">
+                                <a href="#">
+                                    <div class="services__item-service">
+                                        <div class="services__item-img">
+                                            <img src="https://w.ladicdn.com/s450x450/5eda6c604ca19469618d2934/d3-20220530040813.png" alt="">
+                                        </div>
+                                        <h4 class="text-center">Digital Marketing</h4>
+                                        <p class="text-center">Luôn sẵn sàng hỗ trợ bạn 7 ngày một tuần</p>
+                                        <div class="services__item-icon"><i class='bx bx-right-arrow-alt'></i></div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="services__container services__marketing">
                         <div class="row">
                             <div class="col-lg-4 col-md-6 services__item">
                                 <div class="services__item-service">
                                     <div class="services__item-img">
                                         <img src="https://w.ladicdn.com/s450x450/5eda6c604ca19469618d2934/d3-20220530040813.png" alt="">
                                     </div>
-                                    <h4 class="text-center">Tư vấn thành lập doanh nghiệp</h4>
+                                    <h4 class="text-center">Sản phẩm IVORY 300</h4>
                                     <p class="text-center">Cập nhật tình hình kinh doanh quán từ thiết bị của bạn</p>
+                                    <div class="services__item-icon"><i class='bx bx-right-arrow-alt'></i></div>
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-6 services__item">
@@ -167,8 +320,9 @@
                                     <div class="services__item-img">
                                         <img src="https://w.ladicdn.com/s450x450/5eda6c604ca19469618d2934/d2-20220530040813.png" alt="">
                                     </div>
-                                    <h4 class="text-center">Thiết kế thương hiệu</h4>
+                                    <h4 class="text-center">Hộp giấy các loại</h4>
                                     <p class="text-center">Báo cáo kinh doanh toàn diện chỉ trong thời gian ngắn</p>
+                                    <div class="services__item-icon"><i class='bx bx-right-arrow-alt'></i></div>
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-6 services__item">
@@ -176,8 +330,9 @@
                                     <div class="services__item-img">
                                         <img src="https://w.ladicdn.com/s450x450/5eda6c604ca19469618d2934/d3-20220530040813.png" alt="">
                                     </div>
-                                    <h4 class="text-center">Thiết kế quảng cáo</h4>
+                                    <h4 class="text-center">Nhãn Decal các loại</h4>
                                     <p class="text-center">Luôn sẵn sàng hỗ trợ bạn 7 ngày một tuần</p>
+                                    <div class="services__item-icon"><i class='bx bx-right-arrow-alt'></i></div>
                                 </div>
                             </div>
 
@@ -186,17 +341,9 @@
                                     <div class="services__item-img">
                                         <img src="https://w.ladicdn.com/s450x450/5eda6c604ca19469618d2934/d3-20220530040813.png" alt="">
                                     </div>
-                                    <h4 class="text-center">Thiết kế bảng hiệu, cửa hàng, showroom</h4>
+                                    <h4 class="text-center">Bao thư</h4>
                                     <p class="text-center">Cập nhật tình hình kinh doanh quán từ thiết bị của bạn</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6 services__item">
-                                <div class="services__item-service">
-                                    <div class="services__item-img">
-                                        <img src="https://w.ladicdn.com/s450x450/5eda6c604ca19469618d2934/d2-20220530040813.png" alt="">
-                                    </div>
-                                    <h4 class="text-center">Thi công quảng cáo</h4>
-                                    <p class="text-center">Báo cáo kinh doanh toàn diện chỉ trong thời gian ngắn</p>
+                                    <div class="services__item-icon"><i class='bx bx-right-arrow-alt'></i></div>
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-6 services__item">
@@ -204,18 +351,9 @@
                                     <div class="services__item-img">
                                         <img src="https://w.ladicdn.com/s450x450/5eda6c604ca19469618d2934/d3-20220530040813.png" alt="">
                                     </div>
-                                    <h4 class="text-center">Tổ chức sự kiện khai trương</h4>
-                                    <p class="text-center">Luôn sẵn sàng hỗ trợ bạn 7 ngày một tuần</p>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-6 services__item">
-                                <div class="services__item-service">
-                                    <div class="services__item-img">
-                                        <img src="https://w.ladicdn.com/s450x450/5eda6c604ca19469618d2934/d3-20220530040813.png" alt="">
-                                    </div>
-                                    <h4 class="text-center">Chụp ảnh</h4>
+                                    <h4 class="text-center">Danh thiếp</h4>
                                     <p class="text-center">Cập nhật tình hình kinh doanh quán từ thiết bị của bạn</p>
+                                    <div class="services__item-icon"><i class='bx bx-right-arrow-alt'></i></div>
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-6 services__item">
@@ -223,26 +361,9 @@
                                     <div class="services__item-img">
                                         <img src="https://w.ladicdn.com/s450x450/5eda6c604ca19469618d2934/d3-20220530040813.png" alt="">
                                     </div>
-                                    <h4 class="text-center">Quay phim</h4>
-                                    <p class="text-center">Cập nhật tình hình kinh doanh quán từ thiết bị của bạn</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6 services__item">
-                                <div class="services__item-service">
-                                    <div class="services__item-img">
-                                        <img src="https://w.ladicdn.com/s450x450/5eda6c604ca19469618d2934/d2-20220530040813.png" alt="">
-                                    </div>
-                                    <h4 class="text-center">Sản xuất TVC / Marketing</h4>
-                                    <p class="text-center">Báo cáo kinh doanh toàn diện chỉ trong thời gian ngắn</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6 services__item">
-                                <div class="services__item-service">
-                                    <div class="services__item-img">
-                                        <img src="https://w.ladicdn.com/s450x450/5eda6c604ca19469618d2934/d3-20220530040813.png" alt="">
-                                    </div>
-                                    <h4 class="text-center">Thiết kế Website</h4>
+                                    <h4 class="text-center">Tờ rơi tờ gấp</h4>
                                     <p class="text-center">Luôn sẵn sàng hỗ trợ bạn 7 ngày một tuần</p>
+                                    <div class="services__item-icon"><i class='bx bx-right-arrow-alt'></i></div>
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-6 services__item">
@@ -250,8 +371,9 @@
                                     <div class="services__item-img">
                                         <img src="https://w.ladicdn.com/s450x450/5eda6c604ca19469618d2934/d3-20220530040813.png" alt="">
                                     </div>
-                                    <h4 class="text-center">Thiết kế App mobile</h4>
+                                    <h4 class="text-center">Biểu mẫu - CARBONLESS</h4>
                                     <p class="text-center">Luôn sẵn sàng hỗ trợ bạn 7 ngày một tuần</p>
+                                    <div class="services__item-icon"><i class='bx bx-right-arrow-alt'></i></div>
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-6 services__item">
@@ -259,8 +381,369 @@
                                     <div class="services__item-img">
                                         <img src="https://w.ladicdn.com/s450x450/5eda6c604ca19469618d2934/d3-20220530040813.png" alt="">
                                     </div>
-                                    <h4 class="text-center">Digital Marketing</h4>
+                                    <h4 class="text-center">CATALOGUE</h4>
                                     <p class="text-center">Luôn sẵn sàng hỗ trợ bạn 7 ngày một tuần</p>
+                                    <div class="services__item-icon"><i class='bx bx-right-arrow-alt'></i></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 services__item">
+                                <div class="services__item-service">
+                                    <div class="services__item-img">
+                                        <img src="https://w.ladicdn.com/s450x450/5eda6c604ca19469618d2934/d3-20220530040813.png" alt="">
+                                    </div>
+                                    <h4 class="text-center">Thiệp</h4>
+                                    <p class="text-center">Luôn sẵn sàng hỗ trợ bạn 7 ngày một tuần</p>
+                                    <div class="services__item-icon"><i class='bx bx-right-arrow-alt'></i></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 services__item">
+                                <div class="services__item-service">
+                                    <div class="services__item-img">
+                                        <img src="https://w.ladicdn.com/s450x450/5eda6c604ca19469618d2934/d3-20220530040813.png" alt="">
+                                    </div>
+                                    <h4 class="text-center">Lịch</h4>
+                                    <p class="text-center">Luôn sẵn sàng hỗ trợ bạn 7 ngày một tuần</p>
+                                    <div class="services__item-icon"><i class='bx bx-right-arrow-alt'></i></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 services__item">
+                                <div class="services__item-service">
+                                    <div class="services__item-img">
+                                        <img src="https://w.ladicdn.com/s450x450/5eda6c604ca19469618d2934/d3-20220530040813.png" alt="">
+                                    </div>
+                                    <h4 class="text-center">Bao lì xì</h4>
+                                    <p class="text-center">Luôn sẵn sàng hỗ trợ bạn 7 ngày một tuần</p>
+                                    <div class="services__item-icon"><i class='bx bx-right-arrow-alt'></i></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 services__item">
+                                <div class="services__item-service">
+                                    <div class="services__item-img">
+                                        <img src="https://w.ladicdn.com/s450x450/5eda6c604ca19469618d2934/d3-20220530040813.png" alt="">
+                                    </div>
+                                    <h4 class="text-center">Túi giấy</h4>
+                                    <p class="text-center">Luôn sẵn sàng hỗ trợ bạn 7 ngày một tuần</p>
+                                    <div class="services__item-icon"><i class='bx bx-right-arrow-alt'></i></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 services__item">
+                                <div class="services__item-service">
+                                    <div class="services__item-img">
+                                        <img src="https://w.ladicdn.com/s450x450/5eda6c604ca19469618d2934/d3-20220530040813.png" alt="">
+                                    </div>
+                                    <h4 class="text-center">Nhãn giấy</h4>
+                                    <p class="text-center">Luôn sẵn sàng hỗ trợ bạn 7 ngày một tuần</p>
+                                    <div class="services__item-icon"><i class='bx bx-right-arrow-alt'></i></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 services__item">
+                                <div class="services__item-service">
+                                    <div class="services__item-img">
+                                        <img src="https://w.ladicdn.com/s450x450/5eda6c604ca19469618d2934/d3-20220530040813.png" alt="">
+                                    </div>
+                                    <h4 class="text-center">Bìa hồ sơ</h4>
+                                    <p class="text-center">Luôn sẵn sàng hỗ trợ bạn 7 ngày một tuần</p>
+                                    <div class="services__item-icon"><i class='bx bx-right-arrow-alt'></i></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 services__item">
+                                <div class="services__item-service">
+                                    <div class="services__item-img">
+                                        <img src="https://w.ladicdn.com/s450x450/5eda6c604ca19469618d2934/d3-20220530040813.png" alt="">
+                                    </div>
+                                    <h4 class="text-center">Bìa đựng thẻ từ</h4>
+                                    <p class="text-center">Luôn sẵn sàng hỗ trợ bạn 7 ngày một tuần</p>
+                                    <div class="services__item-icon"><i class='bx bx-right-arrow-alt'></i></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 services__item">
+                                <div class="services__item-service">
+                                    <div class="services__item-img">
+                                        <img src="https://w.ladicdn.com/s450x450/5eda6c604ca19469618d2934/d3-20220530040813.png" alt="">
+                                    </div>
+                                    <h4 class="text-center">Menu</h4>
+                                    <p class="text-center">Luôn sẵn sàng hỗ trợ bạn 7 ngày một tuần</p>
+                                    <div class="services__item-icon"><i class='bx bx-right-arrow-alt'></i></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 services__item">
+                                <div class="services__item-service">
+                                    <div class="services__item-img">
+                                        <img src="https://w.ladicdn.com/s450x450/5eda6c604ca19469618d2934/d3-20220530040813.png" alt="">
+                                    </div>
+                                    <h4 class="text-center">In trên nhựa</h4>
+                                    <p class="text-center">Luôn sẵn sàng hỗ trợ bạn 7 ngày một tuần</p>
+                                    <div class="services__item-icon"><i class='bx bx-right-arrow-alt'></i></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 services__item">
+                                <div class="services__item-service">
+                                    <div class="services__item-img">
+                                        <img src="https://w.ladicdn.com/s450x450/5eda6c604ca19469618d2934/d3-20220530040813.png" alt="">
+                                    </div>
+                                    <h4 class="text-center">In nhanh</h4>
+                                    <p class="text-center">Luôn sẵn sàng hỗ trợ bạn 7 ngày một tuần</p>
+                                    <div class="services__item-icon"><i class='bx bx-right-arrow-alt'></i></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 services__item">
+                                <div class="services__item-service">
+                                    <div class="services__item-img">
+                                        <img src="https://w.ladicdn.com/s450x450/5eda6c604ca19469618d2934/d3-20220530040813.png" alt="">
+                                    </div>
+                                    <h4 class="text-center">In PROOF</h4>
+                                    <p class="text-center">Luôn sẵn sàng hỗ trợ bạn 7 ngày một tuần</p>
+                                    <div class="services__item-icon"><i class='bx bx-right-arrow-alt'></i></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 services__item">
+                                <div class="services__item-service">
+                                    <div class="services__item-img">
+                                        <img src="https://w.ladicdn.com/s450x450/5eda6c604ca19469618d2934/d3-20220530040813.png" alt="">
+                                    </div>
+                                    <h4 class="text-center">Banner, Poster</h4>
+                                    <p class="text-center">Luôn sẵn sàng hỗ trợ bạn 7 ngày một tuần</p>
+                                    <div class="services__item-icon"><i class='bx bx-right-arrow-alt'></i></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 services__item">
+                                <div class="services__item-service">
+                                    <div class="services__item-img">
+                                        <img src="https://w.ladicdn.com/s450x450/5eda6c604ca19469618d2934/d3-20220530040813.png" alt="">
+                                    </div>
+                                    <h4 class="text-center">Tem bảo hành</h4>
+                                    <p class="text-center">Luôn sẵn sàng hỗ trợ bạn 7 ngày một tuần</p>
+                                    <div class="services__item-icon"><i class='bx bx-right-arrow-alt'></i></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 services__item">
+                                <div class="services__item-service">
+                                    <div class="services__item-img">
+                                        <img src="https://w.ladicdn.com/s450x450/5eda6c604ca19469618d2934/d3-20220530040813.png" alt="">
+                                    </div>
+                                    <h4 class="text-center">Phiếu bảo hành</h4>
+                                    <p class="text-center">Luôn sẵn sàng hỗ trợ bạn 7 ngày một tuần</p>
+                                    <div class="services__item-icon"><i class='bx bx-right-arrow-alt'></i></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 services__item">
+                                <div class="services__item-service">
+                                    <div class="services__item-img">
+                                        <img src="https://w.ladicdn.com/s450x450/5eda6c604ca19469618d2934/d3-20220530040813.png" alt="">
+                                    </div>
+                                    <h4 class="text-center">Giấy tiêu đề</h4>
+                                    <p class="text-center">Luôn sẵn sàng hỗ trợ bạn 7 ngày một tuần</p>
+                                    <div class="services__item-icon"><i class='bx bx-right-arrow-alt'></i></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 services__item">
+                                <div class="services__item-service">
+                                    <div class="services__item-img">
+                                        <img src="https://w.ladicdn.com/s450x450/5eda6c604ca19469618d2934/d3-20220530040813.png" alt="">
+                                    </div>
+                                    <h4 class="text-center">Ghi chú / Block Note</h4>
+                                    <p class="text-center">Luôn sẵn sàng hỗ trợ bạn 7 ngày một tuần</p>
+                                    <div class="services__item-icon"><i class='bx bx-right-arrow-alt'></i></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 services__item">
+                                <div class="services__item-service">
+                                    <div class="services__item-img">
+                                        <img src="https://w.ladicdn.com/s450x450/5eda6c604ca19469618d2934/d3-20220530040813.png" alt="">
+                                    </div>
+                                    <h4 class="text-center">Bằng khen</h4>
+                                    <p class="text-center">Luôn sẵn sàng hỗ trợ bạn 7 ngày một tuần</p>
+                                    <div class="services__item-icon"><i class='bx bx-right-arrow-alt'></i></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 services__item">
+                                <div class="services__item-service">
+                                    <div class="services__item-img">
+                                        <img src="https://w.ladicdn.com/s450x450/5eda6c604ca19469618d2934/d3-20220530040813.png" alt="">
+                                    </div>
+                                    <h4 class="text-center">Decal giấy tờ rời</h4>
+                                    <p class="text-center">Luôn sẵn sàng hỗ trợ bạn 7 ngày một tuần</p>
+                                    <div class="services__item-icon"><i class='bx bx-right-arrow-alt'></i></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 services__item">
+                                <div class="services__item-service">
+                                    <div class="services__item-img">
+                                        <img src="https://w.ladicdn.com/s450x450/5eda6c604ca19469618d2934/d3-20220530040813.png" alt="">
+                                    </div>
+                                    <h4 class="text-center">Cưới hỏi, sự kiện</h4>
+                                    <p class="text-center">Luôn sẵn sàng hỗ trợ bạn 7 ngày một tuần</p>
+                                    <div class="services__item-icon"><i class='bx bx-right-arrow-alt'></i></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 services__item">
+                                <div class="services__item-service">
+                                    <div class="services__item-img">
+                                        <img src="https://w.ladicdn.com/s450x450/5eda6c604ca19469618d2934/d3-20220530040813.png" alt="">
+                                    </div>
+                                    <h4 class="text-center">Ly sứ</h4>
+                                    <p class="text-center">Luôn sẵn sàng hỗ trợ bạn 7 ngày một tuần</p>
+                                    <div class="services__item-icon"><i class='bx bx-right-arrow-alt'></i></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 services__item">
+                                <div class="services__item-service">
+                                    <div class="services__item-img">
+                                        <img src="https://w.ladicdn.com/s450x450/5eda6c604ca19469618d2934/d3-20220530040813.png" alt="">
+                                    </div>
+                                    <h4 class="text-center">Đế lót ly</h4>
+                                    <p class="text-center">Luôn sẵn sàng hỗ trợ bạn 7 ngày một tuần</p>
+                                    <div class="services__item-icon"><i class='bx bx-right-arrow-alt'></i></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 services__item">
+                                <div class="services__item-service">
+                                    <div class="services__item-img">
+                                        <img src="https://w.ladicdn.com/s450x450/5eda6c604ca19469618d2934/d3-20220530040813.png" alt="">
+                                    </div>
+                                    <h4 class="text-center">Giấy lót bàn ăn</h4>
+                                    <p class="text-center">Luôn sẵn sàng hỗ trợ bạn 7 ngày một tuần</p>
+                                    <div class="services__item-icon"><i class='bx bx-right-arrow-alt'></i></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 services__item">
+                                <div class="services__item-service">
+                                    <div class="services__item-img">
+                                        <img src="https://w.ladicdn.com/s450x450/5eda6c604ca19469618d2934/d3-20220530040813.png" alt="">
+                                    </div>
+                                    <h4 class="text-center">Quạt</h4>
+                                    <p class="text-center">Luôn sẵn sàng hỗ trợ bạn 7 ngày một tuần</p>
+                                    <div class="services__item-icon"><i class='bx bx-right-arrow-alt'></i></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 services__item">
+                                <div class="services__item-service">
+                                    <div class="services__item-img">
+                                        <img src="https://w.ladicdn.com/s450x450/5eda6c604ca19469618d2934/d3-20220530040813.png" alt="">
+                                    </div>
+                                    <h4 class="text-center">Áo thun</h4>
+                                    <p class="text-center">Luôn sẵn sàng hỗ trợ bạn 7 ngày một tuần</p>
+                                    <div class="services__item-icon"><i class='bx bx-right-arrow-alt'></i></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 services__item">
+                                <div class="services__item-service">
+                                    <div class="services__item-img">
+                                        <img src="https://w.ladicdn.com/s450x450/5eda6c604ca19469618d2934/d3-20220530040813.png" alt="">
+                                    </div>
+                                    <h4 class="text-center">PhotoBook</h4>
+                                    <p class="text-center">Luôn sẵn sàng hỗ trợ bạn 7 ngày một tuần</p>
+                                    <div class="services__item-icon"><i class='bx bx-right-arrow-alt'></i></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 services__item">
+                                <div class="services__item-service">
+                                    <div class="services__item-img">
+                                        <img src="https://w.ladicdn.com/s450x450/5eda6c604ca19469618d2934/d3-20220530040813.png" alt="">
+                                    </div>
+                                    <h4 class="text-center">Bưu ảnh</h4>
+                                    <p class="text-center">Luôn sẵn sàng hỗ trợ bạn 7 ngày một tuần</p>
+                                    <div class="services__item-icon"><i class='bx bx-right-arrow-alt'></i></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 services__item">
+                                <div class="services__item-service">
+                                    <div class="services__item-img">
+                                        <img src="https://w.ladicdn.com/s450x450/5eda6c604ca19469618d2934/d3-20220530040813.png" alt="">
+                                    </div>
+                                    <h4 class="text-center">Wobbler</h4>
+                                    <p class="text-center">Luôn sẵn sàng hỗ trợ bạn 7 ngày một tuần</p>
+                                    <div class="services__item-icon"><i class='bx bx-right-arrow-alt'></i></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 services__item">
+                                <div class="services__item-service">
+                                    <div class="services__item-img">
+                                        <img src="https://w.ladicdn.com/s450x450/5eda6c604ca19469618d2934/d3-20220530040813.png" alt="">
+                                    </div>
+                                    <h4 class="text-center">STANDEE</h4>
+                                    <p class="text-center">Luôn sẵn sàng hỗ trợ bạn 7 ngày một tuần</p>
+                                    <div class="services__item-icon"><i class='bx bx-right-arrow-alt'></i></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 services__item">
+                                <div class="services__item-service">
+                                    <div class="services__item-img">
+                                        <img src="https://w.ladicdn.com/s450x450/5eda6c604ca19469618d2934/d3-20220530040813.png" alt="">
+                                    </div>
+                                    <h4 class="text-center">Voucher - Coupon</h4>
+                                    <p class="text-center">Luôn sẵn sàng hỗ trợ bạn 7 ngày một tuần</p>
+                                    <div class="services__item-icon"><i class='bx bx-right-arrow-alt'></i></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 services__item">
+                                <div class="services__item-service">
+                                    <div class="services__item-img">
+                                        <img src="https://w.ladicdn.com/s450x450/5eda6c604ca19469618d2934/d3-20220530040813.png" alt="">
+                                    </div>
+                                    <h4 class="text-center">Phiếu tích điểm</h4>
+                                    <p class="text-center">Luôn sẵn sàng hỗ trợ bạn 7 ngày một tuần</p>
+                                    <div class="services__item-icon"><i class='bx bx-right-arrow-alt'></i></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 services__item">
+                                <div class="services__item-service">
+                                    <div class="services__item-img">
+                                        <img src="https://w.ladicdn.com/s450x450/5eda6c604ca19469618d2934/d3-20220530040813.png" alt="">
+                                    </div>
+                                    <h4 class="text-center">Thẻ giữ xe</h4>
+                                    <p class="text-center">Luôn sẵn sàng hỗ trợ bạn 7 ngày một tuần</p>
+                                    <div class="services__item-icon"><i class='bx bx-right-arrow-alt'></i></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 services__item">
+                                <div class="services__item-service">
+                                    <div class="services__item-img">
+                                        <img src="https://w.ladicdn.com/s450x450/5eda6c604ca19469618d2934/d3-20220530040813.png" alt="">
+                                    </div>
+                                    <h4 class="text-center">Thẻ treo cửa</h4>
+                                    <p class="text-center">Luôn sẵn sàng hỗ trợ bạn 7 ngày một tuần</p>
+                                    <div class="services__item-icon"><i class='bx bx-right-arrow-alt'></i></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 services__item">
+                                <div class="services__item-service">
+                                    <div class="services__item-img">
+                                        <img src="https://w.ladicdn.com/s450x450/5eda6c604ca19469618d2934/d3-20220530040813.png" alt="">
+                                    </div>
+                                    <h4 class="text-center">Tập vở - Sổ tay</h4>
+                                    <p class="text-center">Luôn sẵn sàng hỗ trợ bạn 7 ngày một tuần</p>
+                                    <div class="services__item-icon"><i class='bx bx-right-arrow-alt'></i></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 services__item">
+                                <div class="services__item-service">
+                                    <div class="services__item-img">
+                                        <img src="https://w.ladicdn.com/s450x450/5eda6c604ca19469618d2934/d3-20220530040813.png" alt="">
+                                    </div>
+                                    <h4 class="text-center">Color Chart</h4>
+                                    <p class="text-center">Luôn sẵn sàng hỗ trợ bạn 7 ngày một tuần</p>
+                                    <div class="services__item-icon"><i class='bx bx-right-arrow-alt'></i></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 services__item">
+                                <div class="services__item-service">
+                                    <div class="services__item-img">
+                                        <img src="https://w.ladicdn.com/s450x450/5eda6c604ca19469618d2934/d3-20220530040813.png" alt="">
+                                    </div>
+                                    <h4 class="text-center">Hóa đơn VAT</h4>
+                                    <p class="text-center">Luôn sẵn sàng hỗ trợ bạn 7 ngày một tuần</p>
+                                    <div class="services__item-icon"><i class='bx bx-right-arrow-alt'></i></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 services__item">
+                                <div class="services__item-service">
+                                    <div class="services__item-img">
+                                        <img src="https://w.ladicdn.com/s450x450/5eda6c604ca19469618d2934/d3-20220530040813.png" alt="">
+                                    </div>
+                                    <h4 class="text-center">Thiết kế Logo</h4>
+                                    <p class="text-center">Luôn sẵn sàng hỗ trợ bạn 7 ngày một tuần</p>
+                                    <div class="services__item-icon"><i class='bx bx-right-arrow-alt'></i></div>
                                 </div>
                             </div>
                         </div>
@@ -284,6 +767,12 @@
                                 <img src="https://demo.artureanec.com/html/cryptoland/demo_1/img/play.svg" alt="">
                             </span>
                         </div>
+                    </div>
+                </div>
+
+                <div class="modal__watch">
+                    <div class="box__watch">
+                        <iframe src="https://www.youtube.com/embed/jNE3XuOuaxg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </div>
                 </div>
             </section>
@@ -405,7 +894,7 @@
                 </div>
             </div>
 
-            <div class="gallery section">
+            <div class="gallery section" id="gallery">
                 <div class="container">
                     <div class="gallery__title">
                         <h5>Thư viện</h5>
@@ -462,7 +951,7 @@
                 </div>
             </div>
 
-            <div class="contact">
+            <div class="contact" id="contact">
                 <div class="container">
                     <div class="row contact__content">
                         <div class="col-md-6">
@@ -552,7 +1041,7 @@
     
             setTimeout(() => {
                 cursorClone.remove();
-            }, 1000)
+            }, 500)
         })
     </script>
 
@@ -577,6 +1066,57 @@
             }
             }
         });
+    </script>
+
+    <script>
+        $('.action-icon-show').click(function(){
+            $(this).removeClass('active');
+            $('.action-icon-hide').addClass('active');
+            $('.header__submenu').addClass('active');
+        })
+        $('.action-icon-hide').click(function(){
+            $(this).removeClass('active');
+            $('.action-icon-show').addClass('active');
+            $('.header__submenu').removeClass('active');
+        })
+
+        $('.services__name-service').click(function(){
+            $(this).addClass('active');
+            $('.services__name-marketing').removeClass('active');
+            $('.services__service').addClass('active');
+            $('.services__marketing').removeClass('active');
+        })
+
+        $('.services__name-marketing').click(function(){
+            $(this).addClass('active');
+            $('.services__name-service').removeClass('active');
+            $('.services__marketing').addClass('active');
+            $('.services__service').removeClass('active');
+        })
+
+        $('.watch__play-icon').click(function(){
+            $('.modal__watch').addClass('active');
+        })
+
+        $('.modal__watch').click(function(e){
+            if(e.target == e.currentTarget){
+                $(this).removeClass('active');
+            }
+        })
+    </script>
+
+    <script>
+        window.addEventListener('scroll', () => {
+
+        if (window.scrollY === 0) {
+            $('.header').removeClass('active');
+        }
+        if(window.scrollY > 100) {
+            $('.header').addClass('active');
+        }
+
+        });
+
     </script>
 </body>
 </html>

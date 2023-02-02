@@ -72,7 +72,7 @@ a{
 
 .cursor{
     position: fixed;
-    z-index: 99999;
+    z-index: 99;
 }
 
 .cursor .click-animation{
@@ -165,7 +165,7 @@ a{
     left: 0;
     width: 100%;
     background-color: transparent;
-    z-index: 99;
+    z-index: 999;
 }
 .header.active{
     background: #fff;
@@ -222,9 +222,19 @@ a{
     padding: 6px 10px;
     cursor: pointer;
     display: none;
+    position: relative;
+    z-index: 999;
 }
 .header__action-icon.active{
     display: inline-block;
+}
+.action-icon-hide.active{
+    display: inline-block;
+    animation: spin 0.5s linear forwards;
+}
+
+@keyframes spin {
+    100%{transform: rotate(90deg);}
 }
 
 .header__action-icon:hover{
@@ -240,6 +250,17 @@ a{
     box-shadow: 0 0 20px #ccc;
     padding: 10px 0;
     text-align: start;
+    border-radius: 4px;
+    display: none;
+}
+.header__submenu.active{
+    display: block;
+    animation: showMenu 0.5s linear;
+}
+
+@keyframes showMenu {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
 }
 
 .header__submenu-item{
@@ -545,19 +566,12 @@ a{
     position: absolute;
     top: 0;
     left: 0;
-    width: 0%;
+    width: 100%;
     height: 100%;;
-    background: radial-gradient(#add1ff, transparent);
+    background: rgba(211, 223, 255, 0.4);
     z-index: 9;
-    animation: btnAnimate 0.5s linear forwards;
 }
 
-@keyframes btnAnimate {
-    100% {
-        width: 100%;
-    }
-    
-}
 .services__action .services__action-item:first-child{
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
@@ -584,6 +598,16 @@ a{
 
 .services__container{
     padding: 30px 0;
+    display: none;
+}
+.services__container.active{
+    display: block;
+    animation: opacity 1s linear;
+}
+
+@keyframes opacity {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
 }
 
 .services__item{
@@ -591,6 +615,7 @@ a{
 }
 
 .services__item-service{
+    position: relative;
     padding: 40px;
     box-shadow: 0 0 20px #ddd;
     width: 100%;
@@ -603,6 +628,7 @@ a{
     background: #fff;
 }
 .services__item-service:hover{
+    cursor: pointer;
     transform: translateY(-5px);
 }
 .services__item-service h4{
@@ -616,6 +642,22 @@ a{
 
 .services__item-img img{
     -webkit-box-reflect: right -70px linear-gradient(rgba(255,255,255,0.05), rgba(255,255,255,0.1), rgba(255,255,255,0.1));
+}
+
+.services__item-icon{
+    position: absolute;
+    bottom: 5px;
+    right: 30px;
+    font-size: 20px;
+    color: #999;
+    transition: .4s;
+    transform: translateX(-2px);
+    opacity: 0;
+}
+.services__item-service:hover .services__item-icon{
+    transform: translateX(3px);
+    color: #222;
+    opacity: 1;
 }
 
 /* Watch video */
@@ -684,6 +726,33 @@ a{
 .watch__play-icon img{
     width: 30px;
     transform: translateX(5px);
+}
+
+.modal__watch{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 9999;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+.modal__watch.active{
+    display: flex;
+    animation: opacity 0.5s linear;
+}
+
+.box__watch{
+    width: 1000px;
+    height: 600px;
+}
+.box__watch iframe{
+    width: 100%;
+    height: 100%;
 }
 
 /* Statistical */
@@ -954,7 +1023,7 @@ a{
     transform: scaleY(0);
     -webkit-transform: scaleY(0);
     transition: all 0.5s ease-out 0s;
-    -webkit-transition: all 1s ease-out 0s;
+    -webkit-transition: all 0.5s ease-out 0s;
 }
 
 .gallery__item:hover::after{
@@ -979,7 +1048,7 @@ a{
     align-items: center;
     justify-content: center;
     opacity: 0;
-    transition: all 0.5s;
+    transition: all 1s;
 }
 
 .gallery__item .gallery__name img{
@@ -1007,8 +1076,6 @@ a{
         grid-row: span 1;
         grid-column: span 1;
     }
-
-
 }
 
 

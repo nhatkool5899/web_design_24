@@ -772,12 +772,12 @@
 
                 <div class="modal__watch">
                     <div class="box__watch">
-                        <iframe src="https://www.youtube.com/embed/jNE3XuOuaxg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <iframe src="https://www.youtube.com/watch?v=OPOE2-L967k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </div>
                 </div>
             </section>
             
-            
+            <div class="clearfix"></div>
             
             <div class="statistical section">
                 <div class="background__main"></div>
@@ -861,6 +861,8 @@
 
                 <!-- <div class="statistical__bg"></div> -->
             </div>
+
+            <div class="clearfix"></div>
 
             <div class="perners section">
                 <h2 class="perners__title">Đối tác</h2>
@@ -999,6 +1001,13 @@
         <footer>
             <div class="copyright">Copyright &copy; Design24 </div>
         </footer>
+
+
+
+        <!-- ScrollUp -->
+        <a href="#top" class="scrollUp">
+            <i class='bx bx-up-arrow-alt'></i>
+        </a>
     </div>
 
     
@@ -1014,6 +1023,7 @@
         setTimeout(() => {
         $('.loading').fadeToggle();
         }, 3800);
+
 
 
         // Cursor
@@ -1108,12 +1118,18 @@
     <script>
         window.addEventListener('scroll', () => {
 
-        if (window.scrollY === 0) {
-            $('.header').removeClass('active');
-        }
-        if(window.scrollY > 100) {
-            $('.header').addClass('active');
-        }
+            if (window.scrollY === 0) {
+                $('.header').removeClass('active');
+            }
+            if(window.scrollY > 100) {
+                $('.header').addClass('active');
+            }
+
+            if(window.scrollY > 800) {
+                $('.scrollUp').addClass('active');
+            }else{
+                $('.scrollUp').removeClass('active');
+            }
 
         });
 

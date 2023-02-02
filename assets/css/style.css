@@ -54,6 +54,10 @@ a{
     color: var(--text-color);
 }
 
+.clearfix{
+    height: 60px;
+}
+
 /* ===== Loading ===== */
 .loading{
     background: #fcfcff url(../imgs/loading-demo.gif) no-repeat center center;
@@ -66,6 +70,32 @@ a{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+
+/* ===== ScrollUp ===== */
+.scrollUp{
+    position: fixed;
+    bottom: -20%;
+    right: 2.5rem;
+    width: 40px;
+    height: 46px;
+    border-radius: 6px;
+    background-color: #fff;
+    box-shadow: 0 0 10px #ccc;
+    color: #555;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .5s;
+    z-index: 99;
+}
+.scrollUp:hover{
+    color: #000;
+    transform: translateY(-5px);
+}
+.scrollUp.active{
+    bottom: 3rem;
 }
 
 /*====== Cursor animation =======*/

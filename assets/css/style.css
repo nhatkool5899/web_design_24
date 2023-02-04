@@ -66,7 +66,7 @@ a{
     width: 100%;
     position: fixed;
     z-index: 99999;
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -320,7 +320,7 @@ a{
     height: 2000px;
     background-image: url(../imgs/bg-33.png);
     background-repeat: no-repeat;
-    background-size: 50%;
+    background-size: 30%;
     z-index: -1;
 }
 
@@ -655,6 +655,7 @@ a{
     border-radius: 10px;
     transition: 0.4s;
     background: #fff;
+    color: var(--text-color);
 }
 .services__item-service:hover{
     cursor: pointer;
@@ -670,7 +671,70 @@ a{
 }
 
 .services__item-img img{
-    -webkit-box-reflect: right -70px linear-gradient(rgba(255,255,255,0.05), rgba(255,255,255,0.1), rgba(255,255,255,0.1));
+    object-fit: cover;
+}
+.services__service .services__item-img img{
+    -webkit-box-reflect: right -70px linear-gradient(rgba(255,255,255,0.05), rgba(255,255,255,0.05), rgba(255,255,255,0.05));
+}
+
+.services__marketing{
+    padding: 20px;
+    max-height: 1450px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+/* Handle */
+.services__marketing::-webkit-scrollbar {
+    width: 10px;
+  }
+  /* Track */
+  .services__marketing::-webkit-scrollbar-track {
+    background: #fff; 
+    box-shadow: inset 0 0 5px grey;
+  }
+  .services__marketing::-webkit-scrollbar-thumb {
+    background: var(--text-color);
+    border-radius: 10px;
+  }
+
+.services__marketing .services__item-img{
+    width: 320px;
+    height: 320px;
+    transform-style: preserve-3d;
+    transition: all .6s ease-in-out;
+}
+.services__marketing .services__item-service:hover .services__item-img{
+    transform: rotateY(180deg) scale(1.1);
+}
+
+.services__marketing .services__item-img img{
+    border-radius: 10px;
+}
+
+.services__marketing .services__item-service h4{
+    font-size: 20px;
+    padding: 0px 20px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    position: relative;
+    overflow: hidden;
+    transition: 1.5s;
+}
+.services__marketing .services__item-service h4::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -50%;
+    width: 40%;
+    height: 100%;
+    background: teal;
+    transition: 1.5s;
+}
+.services__marketing .services__item-service:hover h4{
+    color: teal;
+}
+.services__marketing .services__item-service:hover h4::after{
+    left: 150%;
 }
 
 .services__item-icon{
@@ -691,7 +755,7 @@ a{
 
 /* Watch video */
 .watch{
-    padding-top: 0;
+    /* padding-top: 0; */
 }
 .watch__container{
     position: relative;

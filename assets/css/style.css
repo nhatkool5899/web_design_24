@@ -1071,14 +1071,14 @@ a{
     padding-top: 60px;
 }
 
-.gallery__list{
+/* .gallery__list{
     background: #f2f2f2;
     display: grid;
     grid-gap: 10px;
     grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
     grid-auto-rows: 250px;
     grid-auto-flow: dense;
-}
+} */
 
 /* stretch vertically */
 .v-stretch{
@@ -1099,6 +1099,7 @@ a{
 .gallery__item{
     cursor: pointer;
     position: relative;
+    margin-bottom: 26px;
 }
 .gallery__item::before{
     content: "";
@@ -1172,6 +1173,7 @@ a{
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border-radius: 10px;
 }
 
 @media (max-width: 560px) {

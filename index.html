@@ -17,6 +17,30 @@
     <!-- Link css -->
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/responsive.css">
+
+    <!-- Send Email -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init('tLxXTFkgEY4EkGq-P');
+        })();
+    </script>
+    <script type="text/javascript">
+        window.onload = function() {
+            document.getElementById('contact-form').addEventListener('submit', function(event) {
+                event.preventDefault();
+                emailjs.sendForm('service_3zwr23j', 'template_w9mwv9c', this)
+                    .then(function() {
+                        swal("Gửi thành công!", "Chúng tôi sẽ liên lạc với bạn trong thời gian sớm nhất.", "success");
+                        console.log('SUCCESS!');
+                    }, function(error) {
+                        swal("Gửi thất bại!", "Hệ thống đang bảo trì vui lòng quay lại sau.", "error");
+                        console.log('FAILED...', error);
+                    });
+            });
+        }
+    </script>
 </head>
 <body>
 
@@ -1068,13 +1092,13 @@
                             </div>
                         </div>
                         <div class="col-md-5">
-                            <form action="./lien-he.php" method="post">
+                            <form id="contact-form">
                                 <div class="form__group">
-                                    <input type="text" name="name" placeholder="Tên của bạn (*)">
+                                    <input type="text" name="name" placeholder="Tên của bạn (*)" required>
                                 </div>
 
                                 <div class="form__group">
-                                    <input type="text" name="phone" placeholder="Số điện thoại (*)">
+                                    <input type="text" name="phone" placeholder="Số điện thoại (*)" required>
                                 </div>
 
                                 <div class="form__group">

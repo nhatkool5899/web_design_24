@@ -1,0 +1,12 @@
+.benefit-movie{
+	list-style: square;
+}
+
+.benefit-movie li{
+	text-align: start;
+	line-height: 40px;
+}
+
+.title-tvc{
+	line-height: 36px;
+}
